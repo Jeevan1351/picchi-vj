@@ -1,29 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8"/>
-	<title>BMS COLLEGE OF ENGINEERING</title>
-	<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIu372MAsmXia5U3cQ5gMLl3CPcq1wvYUF4w&usqp=CAU" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="styles.css" >
-	<script src = "./index.js" defer></script>
-</head>
+  <head>
+    <title>VJ</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <input type="text" id="Name" name="Name" placeholder="Full Name" />
+    <p id="name"></p>
 
-<body>
+    <input type="text" id="Email" name="Email" placeholder="College Email" />
+    <p id="email"></p>
 
-	<div id="login-box">
-		<div class="right-box">
-	    <h1>Login<h1>
+    <input type="text" id="USN" name="USN" placeholder="USN" />
+    <p id="usn"></p>
 
-		<input type="text" id = "e-mail" name="email" placeholder="Email"/>
-		<p class= "error" id = "email"></p>
-		<input type="password" id="password" placeholder="Password"/>
-		<p id="pwd"> </p>
-		<a href=#>Forgot password?</a>
-		<a href=# >Sign Up</a>
-		
-		<button class="button">Login</button>
-		</div>
-	</div>
-</body>
+    <input
+      type="text"
+      id="Instructor"
+      name="Instructor"
+      placeholder="Instructor's Name"
+    />
+    <p id="instructor"></p>
 
+    <input
+      type="text"
+      id="Teacher"
+      name="Teacher"
+      placeholder="Teacher's Name"
+    />
+    <p id="teacher"></p>
+
+    <input
+      type="text"
+      id="Section"
+      name="Section"
+      placeholder="Section   ex-'C-B' "
+    />
+    <p id="sec"></p>
+
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Password"
+    />
+    <p id="pwd"></p>
+
+    <input
+      type="password"
+      id="repassword"
+      name="repassword"
+      placeholder="Re-enter Password"
+    />
+    <p id="repwd"></p>
+
+    <button type="button" class="button" onclick="verify()">Save</button>
+
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
 </html>
